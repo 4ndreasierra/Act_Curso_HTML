@@ -30,6 +30,9 @@ select{
     color: white;
    
 }
+button{
+    padding: 1%;
+}
 .agn_center{
     text-align: center;
 }
