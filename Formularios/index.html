@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-    <h1>FORMULARIO BÁSICO</h1>
-    <hr>
+    
     <form name="form_1" method="post" action="#" enctype="multipart/form-data">
+        <h1>FORMULARIO BÁSICO</h1>
+        <hr>
         <label for="nombre">Nombre </label>
         <input type="text" name="nombre" id="nombre"><br>
         <label for="apellidos">Apellidos</label>
@@ -30,8 +32,10 @@
         <input type="radio" name="aficiones" id="lectura" value="lectura"><label>Lectura</label><br>
         <input type="radio" name="aficiones" id="juegos" value="juegos"><label>Juegos</label><br>
         <label>Acepto los términos</label><input type="checkbox" name="tdl" id="tdl" value="terminos"><br>
-        <input type="submit" name="btn_enviar" id="btn_enviar" value="Enviar">
-        <input type="reset" name="btn_borrar" id="btn_borrar" value="Borrar">
+        <div class="agn_center">
+        <input class="btn" type="submit" name="btn_enviar" id="btn_enviar" value="Enviar">
+        <input class="btn" type="reset" name="btn_borrar" id="btn_borrar" value="Borrar">
+    </div>
 
 
     </form>
